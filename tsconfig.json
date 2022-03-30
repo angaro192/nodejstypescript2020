@@ -10,12 +10,12 @@
     "rootDir": "./src",
     "typeRoots": ["./node_modules/@types", "./src/@types"],
     "resolveJsonModule": true,
+    "experimentalDecorators": true,
     "allowJs": true,
     "outDir": "./dist",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
-    "experimentalDecorators": true,
     "baseUrl": "./",
     "paths": {
       "@controllers/*": ["./src/controllers/*"],
